@@ -1,24 +1,21 @@
 .body {
-    background-color: rgb(13, 17, 7);
-    color: rgb(214, 203, 203);
+  background-color: rgb(13, 17, 7);
+  color: rgb(214, 203, 203);
 }
 
-
 .container {
-    height: 500px;
-    width: 1280px;
-    margin: 50px;
+  height: 500px;
+  width: 1280px;
+  margin: 50px;
 }
 
 .form {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .bitoutput {
-    font-weight: 700;
-    font-size: 16px;
-    background-color: #fff;
-    color: black;
-    
-    
-}   
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #fff;
+  color: black;
+}
