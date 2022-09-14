@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTC Test</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="body">
+    <div class="container">
+      <h1>Here you can see how many Bitcoin you can buy today!</h1>
+      <br />
+      <form action="#" class="form">
+        <div>
+          <label>"What is Bitcoin price today?"</label>
+          <input
+            type="number"
+            value="0"
+            id="value_1"
+            oninput="countBit(this.value)"
+            onchange="countBit(this.value)"
+          />
+        </div>
+      </form>
+      <br />
+      <form action="#" class="form">
+        <div>
+          <label>"How much $ do you have?"</label>
+          <input
+            type="number"
+            value="0"
+            id="value_2"
+            oninput="countBit(this.value)"
+            onchange="countBit(this.value)"
+          />
+          <p>You can buy <span id="outputbit" class="bitoutput"></span> BTC!</p>
+        </div>
+      </form>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
